@@ -28,6 +28,7 @@ RUN  pip3 install --upgrade pip \
     bash_kernel \
     pandas \
     xlrd \ 
+    streamlit \
     && python3 -m bash_kernel.install
 
 # run the installation script  
