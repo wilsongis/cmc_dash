@@ -1,0 +1,6 @@
+requests
+jupyter
+jupyterlab
+pycrypto
+bash_kernel
+
