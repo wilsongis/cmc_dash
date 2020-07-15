@@ -1,6 +1,8 @@
-# Python Dev Environment
+# Python Dev Environment for the CMC Dashboard
 
 ==============================
+
+> Project created to parse TN Covid Data so that I can create a dashboard.
 
 ## A unified python development environment I can use on both Mac and Windows
 
