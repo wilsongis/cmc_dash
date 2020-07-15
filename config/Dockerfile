@@ -26,6 +26,8 @@ RUN  pip3 install --upgrade pip \
     jupyterlab \
     pycrypto \
     bash_kernel \
+    pandas \
+    xlrd \ 
     && python3 -m bash_kernel.install
 
 # run the installation script  
