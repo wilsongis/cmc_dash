@@ -1,57 +1,12 @@
-# Python Dev Environment for the CMC Dashboard
+# Python Code for the CMC Dashboard
 
 ==============================
 
 > Project created to parse TN Covid Data so that I can create a dashboard.
 
-## A unified python development environment I can use on both Mac and Windows
+## Development Environment
 
-## Features:
-
-- zsh shell (with oh my zsh)
-- python3
-- Jupyter and JupyterLab
-
-
-Based from [How to Setup Your JupyterLab Project Environment](https://towardsdatascience.com/how-to-setup-your-jupyterlab-project-environment-74909dade29b)
-
-To Run Environment:
-
-On Mac:
-
-```bash
-sh run.sh
-```
-
-On Windows:
-
-```cmd
-run.bat
-```
-
-The image will launch the zsh shell prompt.
-
-To run JupyterLab:
-
-```bash
-sh config/run_jupyter.sh
-```
-
-## Python Packages
-
-To install various python packages on image load, edit:
-
-```bash
-RUN  pip3 install --upgrade pip \
-    requests \
-    jupyter \
-    jupyterlab \
-    pycrypto \
-    bash_kernel \
-    && python3 -m bash_kernel.install
-```
-
-Add a new line after "bash_kernel \" and add the python package followed by " \".
+To set up the development environment, follow the steps outlined in ["The right and wrong way to set Python 3 as default on a Mac"](https://opensource.com/article/19/5/python-3-default-mac). The steps should be similar to setup in the windows environment.
 
 Folder layout is based on:
 [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/).
