@@ -29,6 +29,7 @@ RUN  pip3 install --upgrade pip \
     pandas \
     xlrd \ 
     streamlit \
+    plotly \
     && python3 -m bash_kernel.install
 
 # run the installation script  
